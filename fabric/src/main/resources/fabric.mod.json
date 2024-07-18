@@ -1,35 +1,43 @@
 {
   "schemaVersion": 1,
-  "id": "huskhomes",
+  "id": "discord2fa",
   "version": "${version}",
-  "name": "HuskHomes",
-  "icon": "assets/huskhomes/icon.png",
+  "name": "Discord2FA",
+  "icon": "assets/discord2fa/icon.png",
   "description": "${description}",
   "authors": [
     {
-      "name": "William278",
+      "name": "SieaDev",
       "contact": {
-        "sources": "https://github.com/WiIIiam278/",
-        "homepage": "https://william278.net/"
+        "sources": "https://github.com/sieadev/",
+        "homepage": "https://modrinth.com/user/sieadev/"
+      }
+    },
+    {
+      "name": "Relism",
+      "contact": {
+        "sources": "https://github.com/Relism/",
+        "homepage": "https://modrinth.com/user/Relism/"
       }
     }
   ],
   "license": "Apache-2.0",
   "contact": {
-    "homepage": "https://william278.net/project/huskhomes/",
-    "repo": "https://github.com/WiIIiam278/HuskHomes",
-    "issues": "https://github.com/WiIIiam278/HuskHomes/issues"
+    "homepage": "https://modrinth.com/plugin/discord2fa",
+    "repo": "https://github.com/sieadev/Discord2FA",
+    "issues": "https://github.com/sieadev/Discord2FA/issues"
   },
   "environment": "server",
   "entrypoints": {
     "server": [
-      "net.william278.huskhomes.FabricHuskHomes"
+      "net.vitacraft.discord2fa_fabric.Discord2FA"
     ]
   },
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
     "minecraft": ">=${fabric_minecraft_version}",
-    "fabric-api": "*"
+    "fabric-api": "*",
+    "serverlibraries": "*"
   },
   "suggests": {
     "bluemap": ">=3.13",

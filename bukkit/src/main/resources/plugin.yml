@@ -1,21 +1,4 @@
-name: 'HuskHomes'
-description: '${description}'
-author: 'William278'
-website: 'https://william278.net/'
-main: 'net.william278.huskhomes.BukkitHuskHomes'
-version: '${version}'
-api-version: '1.17'
-softdepend:
-  - Vault
-  - PlaceholderAPI
-  - dynmap
-  - BlueMap
-  - Pl3xMap
-  - Plan
-  - Essentials
-libraries:
-  - 'redis.clients:jedis:${jedis_version}'
-  - 'com.mysql:mysql-connector-j:${mysql_driver_version}'
-  - 'org.mariadb.jdbc:mariadb-java-client:${mariadb_driver_version}'
-  - 'org.xerial:sqlite-jdbc:${sqlite_driver_version}'
-  - 'com.h2database:h2:${h2_driver_version}'
+name: "discord2fa"
+version: '1.0'
+main: 'net.vitacraft.discord2fa_bukkit.Discord2FA'
+api-version: '1.20'

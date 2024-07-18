@@ -5,17 +5,9 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'HuskHomes'
+rootProject.name = 'Discord2FA'
 include(
         'common',
-
-        // Paper/Spigot
         'bukkit',
-        'paper',
-
-        // Fabric
         'fabric',
-
-        // Sponge
-        'sponge'
 )
